@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#profile {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+#profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #ddd;
+}
+
+#profile h1 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#profile section {
+    margin-top: 25px;
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+#profile section:last-child {
+    border-bottom: none;
+}
+
+#profile h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#profile p {
+    color: #555;
+    line-height: 1.6;
+}
+
+#social-links {
+    margin-top: 15px;
+}
+
+#social-links a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#social-links a:hover {
+    background-color: #0056b3;
+}
